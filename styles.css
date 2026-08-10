@@ -2,7 +2,7 @@
 
 :root { --black:#050608; --panel:#0a0d11; --panel-2:#0e141b; --blue:#1685ee; --blue-light:#55adff; --white:#f3f5f7; --muted:#929ca7; --line:#29333d; --page:1280px; }
 * { box-sizing:border-box; }
-html { scroll-behavior:smooth; min-width:1280px; }
+html { scroll-behavior:smooth; }
 body { margin:0; min-width:320px; color:var(--white); background:var(--black); font-family:Inter,Arial,sans-serif; line-height:1.6; }
 body::before { position:fixed; inset:0; z-index:-1; content:""; opacity:.28; background:radial-gradient(circle at 70% 5%,#18324d 0,transparent 27%),repeating-linear-gradient(0deg,rgba(255,255,255,.018) 0 1px,transparent 1px 4px); }
 button,input,textarea { font:inherit; }
