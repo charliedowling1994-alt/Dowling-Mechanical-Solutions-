@@ -42,9 +42,9 @@ main { overflow:hidden; }
 .address-copy .address-copy-label { width:auto; height:auto; background:transparent; }
 .address-copy:hover .address-copy-label,.address-copy:focus-visible .address-copy-label { color:#fff; }
 .address-copy:focus-visible { outline:1px solid var(--blue-light); outline-offset:6px; }
-h1 { max-width:720px; margin-bottom:28px; color:var(--blue-light); font-size:clamp(62px,6.3vw,96px); font-weight:800; line-height:.83; letter-spacing:-.035em; text-transform:uppercase; }
-h1 em,h2 em { color:var(--blue-light); font-style:normal; -webkit-text-stroke:0; }
-.hero-intro { max-width:620px; margin-bottom:32px; color:var(--blue-light); font-size:17px; }
+h1 { max-width:720px; margin-bottom:28px; color:var(--white); font-size:clamp(62px,6.3vw,96px); font-weight:800; line-height:.83; letter-spacing:-.035em; text-transform:uppercase; }
+h1 em,h2 em { color:var(--white); font-style:normal; -webkit-text-stroke:0; }
+.hero-intro { max-width:620px; margin-bottom:32px; color:var(--white); font-size:17px; }
 .hero-actions { display:flex; align-items:center; gap:25px; }
 .primary { padding:16px 22px; }
 .text-link,.service-grid button { border:0; border-bottom:1px solid #54616d; padding:10px 0; color:var(--blue-light); background:transparent; font-size:12px; }
