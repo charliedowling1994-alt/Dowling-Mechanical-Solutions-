@@ -166,6 +166,19 @@ input:focus,textarea:focus { border-color:var(--blue); }
 }
 @media(max-width:430px){.brand-copy{display:none}.hero-actions{align-items:stretch;flex-direction:column}.hero-trust{grid-template-columns:1fr}.hero-trust div{padding-bottom:12px}.process-grid{grid-template-columns:1fr}.machine-part{width:230px}}
 
+/* Component photographs retain their complete framing at every screen size. */
+.component-gallery { background:var(--panel); }
+.component-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; }
+.component-grid figure { min-width:0; margin:0; border:1px solid var(--line); background:var(--black); }
+.component-grid img { display:block; width:100%; height:auto; aspect-ratio:1; object-fit:contain; background:#fff; }
+.component-grid figcaption { padding:26px; }
+.component-grid h3 { margin-bottom:12px; font-size:30px; line-height:1.1; }
+.component-grid p { font-size:14px; }
+.component-grid a,.component-enquiry a { color:var(--blue-light); }
+.component-grid a { font-size:14px; }
+.component-enquiry { max-width:800px; margin:32px 0 0; }
+@media(max-width:760px) { .component-grid { grid-template-columns:1fr; } }
+
 /* Service pages share the existing colours, typography and navigation. */
 a { overflow-wrap:anywhere; }
 a:focus-visible,button:focus-visible { outline:2px solid var(--blue-light); outline-offset:5px; }
