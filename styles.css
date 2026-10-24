@@ -237,3 +237,9 @@ section[id] { scroll-margin-top:150px; }
   *,*::before,*::after { transition:none !important; }
 }
 
+
+/* Hide the square image background outside the circular DMS badge. */
+.brand img,
+.footer-brand img {
+  clip-path: circle(49% at 50% 50%);
+}
