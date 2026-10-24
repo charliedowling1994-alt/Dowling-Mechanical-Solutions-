@@ -243,3 +243,18 @@ section[id] { scroll-margin-top:150px; }
 .footer-brand img {
   clip-path: circle(49% at 50% 50%);
 }
+
+/* Keep only the circular badge, without a decorative panel or shadow. */
+.brand::before {
+  content: none;
+  display: none;
+}
+.brand,
+.footer-brand {
+  background: transparent;
+  box-shadow: none;
+}
+.brand img,
+.footer-brand img {
+  filter: none;
+}
